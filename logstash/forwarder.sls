@@ -10,11 +10,11 @@ logstash-forwarder:
 
 /etc/logstash-forwarder.crt:
   file.managed:
-    - source: salt://{{certificate}}
+    - source: {{certificate}}
 
 forwarder-config:
   file.managed:
     - name: /etc/logstash-forwarder.conf
-    - source: salt://{{config_file}}
+    - source: {{config_file}}
     - template: jinja
     - environment: {{environment}}

@@ -7,10 +7,10 @@ logstash:
 
   forwarder:
     # Location of the forwarder config on the salt fileserver
-    config: nodes/my/node/logstash-forwarder.cfg
+    config: salt://nodes/my/node/logstash-forwarder.cfg
 
     # The environment, can be used in the logstash forwarder config
     environment: production
 
     # The SSL certificate the forwarder uses to authenticate the master
-    certificate: logstash-certificate.crt
+    certificate: salt://logstash-certificate.crt
