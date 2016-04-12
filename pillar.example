@@ -1,9 +1,9 @@
 logstash:
   # The exact version of logstash to install.
-  version: 1.4.4
+  #version: 1.5.3
 
   # The version for the apt repository.
-  repo_version: 1.4
+  repo_version: 1.5
 
 #  forwarder:
 #    # Location of the forwarder config on the salt fileserver
