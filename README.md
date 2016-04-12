@@ -1,5 +1,7 @@
 # logstash-formula
 
+[![Travis branch](https://img.shields.io/travis/Enrise/logstash-formula/master.svg?style=flat-square)](https://travis-ci.org/Enrise/logstash-formula)
+
 This formula will install the latest stable version of Logstash from the official repo.
 
 ## Compatibility
